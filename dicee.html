@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    
+
+    <div class="popper">🎉Hurray! You completed 10 matches</div>
+    <div class="container">
+      <h1>Press play to Start!</h1>
+
+      <div class="big-container">
+        <div class="small-container">
+          <div class="d">
+            <div class="dice">
+              <p>You</p>
+              <img class="img" src="./images/dice6.png" />
+            </div>
+
+            <div class="dice">
+              <p>Computer</p>
+              <img class="img" src="./images/dice6.png" />
+            </div>
+          </div>
+
+          <div class="butn-div">
+            <button class="btn">Play</button>
+          </div>
+          
+        </div>
+
+        <div class="score-container">
+          <div class="score-board">
+            <h3>Total matches: 0</h3>
+            <h4 id="player1">You: <span class="score">0 wins</span></h4>
+            <h4 id="player2">Computer: <span class="score">0 wins</span></h4>
+            <h4 id="draw">Draw : <span class="score">0 </span></h4>
+          </div>
+        </div>
+      </div>
+      
+
+
+      
+    </div>
+
+    <footer>Made by Deepak Kumar</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js" charset="utf-8"></script>
+  </body>
+</html>
